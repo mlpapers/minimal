@@ -110,6 +110,15 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+ul ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul ul li::marker {
+  color: #BBB;
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
